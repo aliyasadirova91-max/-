@@ -1,3 +1,7 @@
+import heroImage from '../assets/images/hero_sazdy_school_1792424056880.jpg';
+import keleshekImage from '../assets/images/new_building_keleshek_1792424058262.jpg';
+import historyImage from '../assets/images/school_history_1984_1792424058478.jpg';
+import documentsImage from '../assets/images/archive_documents_1792424059144.jpg';
 import {
   SiteConfig,
   TimelineEvent,
@@ -22,10 +26,10 @@ export const DEFAULT_SITE_CONFIG: SiteConfig = {
     '1984 жылы іргесі қаланған қасиетті білім ордасының қырық жылдан астам шежіресі мен 2025 жылғы «Келешек мектебі» жаңа дәуіріне арналған ғылыми-зерттеу жобасы.',
   welcomeMessage:
     'Бұл ғылыми-зерттеу жобасы мен тарихи веб-портал Сазды орта мектебінің 1984 жылдан басталған білім беру жолын, ардагер ұстаздар мен түлектер мұрасын, сондай-ақ 2025 жылы ашылған заманауи «Келешек мектебі» ғимаратының тыныс-тіршілігін жүйелеуге арналған. Барлық деректер мектеп мұрағаты мен ғылыми ізденістер негізінде жинақталуда.',
-  heroImageUrl: '/src/assets/images/hero_sazdy_school_1792424056880.jpg',
-  keleshekImageUrl: '/src/assets/images/new_building_keleshek_1792424058262.jpg',
-  historyArchiveImageUrl: '/src/assets/images/school_history_1984_1792424058478.jpg',
-  documentsArchiveImageUrl: '/src/assets/images/archive_documents_1792424059144.jpg',
+heroImageUrl: heroImage,
+keleshekImageUrl: keleshekImage,
+historyArchiveImageUrl: historyImage,
+documentsArchiveImageUrl: documentsImage,
 };
 
 export const DEFAULT_TIMELINE_EVENTS: TimelineEvent[] = [
